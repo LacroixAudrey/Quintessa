@@ -1,221 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Quintessa | Kits Express de la Parentalité</title>
 
-<meta name="description" content="Découvrez les Kits Express de la Parentalité Quintessa : des outils numériques illustrés pour accompagner les enfants dans leurs routines, leurs émotions et leur autonomie.">
+<meta name="description" content="Découvrez les Kits Express de la Parentalité Quintessa. Des ressources numériques illustrées pour accompagner les enfants dans leurs routines, leurs émotions et leur autonomie.">
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-:root{
-
---beige:#FAF8F4;
---ocre:#BE8A5A;
---terracotta:#C77B5C;
---sage:#A6B59A;
---text:#4D463F;
-
-}
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-body{
-
-font-family:Poppins,sans-serif;
-background:var(--beige);
-color:var(--text);
-line-height:1.6;
-
-}
-
-h1,h2,h3{
-
-font-family:"Cormorant Garamond",serif;
-
-}
-
-header{
-
-padding:25px 10%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-
-}
-
-.logo{
-
-font-size:34px;
-font-weight:bold;
-
-}
-
-nav a{
-
-margin-left:30px;
-text-decoration:none;
-color:var(--text);
-
-}
-
-.hero{
-
-display:grid;
-grid-template-columns:1fr 1fr;
-align-items:center;
-padding:80px 10%;
-gap:80px;
-
-}
-
-.hero h1{
-
-font-size:65px;
-margin-bottom:25px;
-
-}
-
-.hero p{
-
-font-size:20px;
-margin-bottom:35px;
-
-}
-
-.button{
-
-display:inline-block;
-background:var(--ocre);
-color:white;
-padding:15px 28px;
-border-radius:30px;
-text-decoration:none;
-margin-right:15px;
-
-}
-
-.button.secondary{
-
-background:white;
-color:var(--text);
-border:1px solid #ddd;
-
-}
-
-.hero img{
-
-width:100%;
-border-radius:30px;
-
-}
-
-section{
-
-padding:90px 10%;
-
-}
-
-.section-title{
-
-text-align:center;
-font-size:48px;
-margin-bottom:15px;
-
-}
-
-.subtitle{
-
-text-align:center;
-max-width:700px;
-margin:auto;
-margin-bottom:60px;
-
-}
-
-.grid{
-
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:35px;
-
-}
-
-.card{
-
-background:white;
-padding:25px;
-border-radius:25px;
-box-shadow:0 10px 30px rgba(0,0,0,.05);
-transition:.3s;
-
-}
-
-.card:hover{
-
-transform:translateY(-6px);
-
-}
-
-.card img{
-
-width:100%;
-border-radius:18px;
-margin-bottom:20px;
-
-}
-
-.card h3{
-
-font-size:28px;
-margin-bottom:15px;
-
-}
-
-.card a{
-
-display:inline-block;
-margin-top:20px;
-color:var(--ocre);
-text-decoration:none;
-font-weight:600;
-
-}
-
-.features{
-
-display:grid;
-grid-template-columns:repeat(4,1fr);
-text-align:center;
-gap:40px;
-
-}
-
-.feature{
-
-background:white;
-padding:35px;
-border-radius:25px;
-
-}
-
-footer{
-
-background:#EFE8DE;
-padding:60px 10%;
-text-align:center;
-
-}
-
-</style>
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -223,207 +23,435 @@ text-align:center;
 
 <header>
 
-<div class="logo">Quintessa</div>
+<div class="container">
+
+<div class="logo">
+
+<a href="index.html">Quintessa</a>
+
+</div>
 
 <nav>
 
-<a href="#">Accueil</a>
+<ul>
 
-<a href="#">Boutique</a>
+<li><a href="#">Accueil</a></li>
 
-<a href="#">Médiation animale</a>
+<li><a href="#kits">Kits Express</a></li>
 
-<a href="#">À propos</a>
+<li><a href="#">Boutique</a></li>
+
+<li><a href="#">À propos</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
 
 </nav>
 
+</div>
+
 </header>
+
+<!-- HERO -->
 
 <section class="hero">
 
-<div>
+<div class="hero-text">
 
-<h1>Grandir avec confiance,<br>accompagner avec bienveillance.</h1>
+<span class="collection">
+
+🦊 Collection Parentalité
+
+</span>
+
+<h1>
+
+Grandir avec confiance,<br>
+
+accompagner avec bienveillance.
+
+</h1>
 
 <p>
 
-Des ressources numériques illustrées pour accompagner les enfants dans leurs routines, leurs émotions et leur autonomie.
+Des outils numériques illustrés conçus pour accompagner les enfants de 3 à 8 ans dans leurs routines, leurs émotions et leur autonomie.
 
 </p>
 
-<a class="button" href="#">Découvrir les Kits</a>
+<div class="hero-buttons">
 
-<a class="button secondary" href="#">Boutique</a>
+<a href="#kits" class="btn-primary">
+
+Découvrir les Kits
+
+</a>
+
+<a href="#" class="btn-secondary">
+
+Voir la boutique
+
+</a>
+
+</div>
+
+<div class="hero-icons">
+
+<div>
+
+📥
+
+<p>Téléchargement immédiat</p>
 
 </div>
 
 <div>
 
-<img src="images/hero.jpg">
-
-</div>
-
-</section>
-
-<section>
-
-<h2 class="section-title">Les Kits Express de la Parentalité</h2>
-
-<p class="subtitle">
-
-Des outils numériques illustrés pour accompagner les enfants de 3 à 8 ans dans les petits défis du quotidien.
-
-</p>
-
-<div class="grid">
-
-<div class="card">
-
-<img src="images/matin.jpg">
-
-<h3>🌞 Routine du matin</h3>
-
-<p>Des matins plus sereins grâce à des supports visuels simples et motivants.</p>
-
-<a href="#">Voir le kit →</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/soir.jpg">
-
-<h3>🌙 Routine du soir</h3>
-
-<p>Créer un rituel du coucher rassurant et apaisant.</p>
-
-<a href="#">Voir le kit →</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/bain.jpg">
-
-<h3>🛁 Routine du bain</h3>
-
-<p>Transformer le bain en un moment de plaisir.</p>
-
-<a href="#">Voir le kit →</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/ecole.jpg">
-
-<h3>🎒 Départ à l'école</h3>
-
-<p>Des départs plus sereins chaque matin.</p>
-
-<a href="#">Voir le kit →</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/retour.jpg">
-
-<h3>🏡 Retour de l'école</h3>
-
-<p>Une transition douce entre l'école et la maison.</p>
-
-<a href="#">Voir le kit →</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/hygiene.jpg">
-
-<h3>🚿 L'hygiène</h3>
-
-<p>Apprendre les gestes essentiels du quotidien.</p>
-
-<a href="#">Voir le kit →</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/repas.jpg">
-
-<h3>🍽️ Le repas</h3>
-
-<p>Favoriser une relation positive avec les repas.</p>
-
-<a href="#">Voir le kit →</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/rangement.jpg">
-
-<h3>🧸 Le rangement des jouets</h3>
-
-<p>Transformer le rangement en un jeu.</p>
-
-<a href="#">Voir le kit →</a>
-
-</div>
-
-<div class="card">
-
-<img src="images/emotions.jpg">
-
-<h3>❤️ Apaiser les émotions</h3>
-
-<p>Comprendre, exprimer et accueillir ses émotions.</p>
-
-<a href="#">Voir le kit →</a>
-
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<h2 class="section-title">Pourquoi choisir Quintessa ?</h2>
-
-<div class="features">
-
-<div class="feature">
-
-📥
-
-<h3>Téléchargement immédiat</h3>
-
-</div>
-
-<div class="feature">
-
 🖨️
 
-<h3>Prêt à imprimer</h3>
+<p>Prêt à imprimer</p>
 
 </div>
 
-<div class="feature">
+<div>
 
 💛
 
-<h3>Approche bienveillante</h3>
+<p>Créé avec bienveillance</p>
 
 </div>
 
-<div class="feature">
+</div>
 
-👩‍🏫
+</div>
 
-<h3>Créé par une professionnelle</h3>
+<div class="hero-image">
+
+<img src="images/hero-renard.png" alt="Collection Kits Express">
+
+</div>
+
+</section>
+
+<!-- KITS -->
+
+<section id="kits">
+
+<div class="title">
+
+<h2>
+
+Les Kits Express de la Parentalité
+
+</h2>
+
+<p>
+
+Des supports illustrés pour accompagner les petits défis du quotidien.
+
+</p>
+
+</div>
+
+<div class="products">
+
+<!-- MATIN -->
+
+<div class="product">
+
+<img src="images/matin.jpg">
+
+<span class="badge">
+
+Best-seller
+
+</span>
+
+<h3>
+
+🌞 Routine du matin
+
+</h3>
+
+<p>
+
+Des matins plus sereins grâce à des routines simples et visuelles.
+
+</p>
+
+<div class="price">
+
+8,90 €
+
+</div>
+
+<a href="#">
+
+Voir le kit
+
+</a>
+
+</div>
+
+<!-- SOIR -->
+
+<div class="product">
+
+<img src="images/soir.jpg">
+
+<h3>
+
+🌙 Routine du soir
+
+</h3>
+
+<p>
+
+Créer un coucher apaisé grâce à des rituels rassurants.
+
+</p>
+
+<div class="price">
+
+8,90 €
+
+</div>
+
+<a href="#">
+
+Voir le kit
+
+</a>
+
+</div>
+
+<!-- BAIN -->
+
+<div class="product">
+
+<img src="images/bain.jpg">
+
+<h3>
+
+🛁 Routine du bain
+
+</h3>
+
+<p>
+
+Transformer le bain en un moment calme et agréable.
+
+</p>
+
+<div class="price">
+
+8,90 €
+
+</div>
+
+<a href="#">
+
+Voir le kit
+
+</a>
+
+</div>
+
+<!-- ECOLE -->
+
+<div class="product">
+
+<img src="images/ecole.jpg">
+
+<h3>
+
+🎒 Départ à l'école
+
+</h3>
+
+<p>
+
+Faciliter les départs du matin.
+
+</p>
+
+<div class="price">
+
+8,90 €
+
+</div>
+
+<a href="#">
+
+Voir le kit
+
+</a>
+
+</div>
+
+<!-- RETOUR -->
+
+<div class="product">
+
+<img src="images/retour.jpg">
+
+<h3>
+
+🏡 Retour de l'école
+
+</h3>
+
+<p>
+
+Une transition douce entre l'école et la maison.
+
+</p>
+
+<div class="price">
+
+8,90 €
+
+</div>
+
+<a href="#">
+
+Voir le kit
+
+</a>
+
+</div>
+
+<!-- REPAS -->
+
+<div class="product">
+
+<img src="images/repas.jpg">
+
+<h3>
+
+🍽️ Le repas
+
+</h3>
+
+<p>
+
+Découvrir les repas avec plaisir.
+
+</p>
+
+<div class="price">
+
+8,90 €
+
+</div>
+
+<a href="#">
+
+Voir le kit
+
+</a>
+
+</div>
+
+<!-- HYGIENE -->
+
+<div class="product">
+
+<img src="images/hygiene.jpg">
+
+<h3>
+
+🚿 L'hygiène
+
+</h3>
+
+<p>
+
+Apprendre les gestes essentiels du quotidien.
+
+</p>
+
+<div class="price">
+
+8,90 €
+
+</div>
+
+<a href="#">
+
+Voir le kit
+
+</a>
+
+</div>
+
+<!-- RANGEMENT -->
+
+<div class="product">
+
+<img src="images/rangement.jpg">
+
+<h3>
+
+🧸 Le rangement des jouets
+
+</h3>
+
+<p>
+
+Ranger devient un jeu.
+
+</p>
+
+<div class="price">
+
+8,90 €
+
+</div>
+
+<a href="#">
+
+Voir le kit
+
+</a>
+
+</div>
+
+<!-- EMOTIONS -->
+
+<div class="product">
+
+<img src="images/emotions.jpg">
+
+<span class="badge new">
+
+Nouveau
+
+</span>
+
+<h3>
+
+❤️ Apaiser les émotions
+
+</h3>
+
+<p>
+
+Comprendre et accueillir les émotions.
+
+</p>
+
+<div class="price">
+
+8,90 €
+
+</div>
+
+<a href="#">
+
+Voir le kit
+
+</a>
 
 </div>
 
@@ -431,23 +459,111 @@ Des outils numériques illustrés pour accompagner les enfants de 3 à 8 ans dan
 
 </section>
 
-<section>
+<!-- CONTENU -->
 
-<h2 class="section-title">Bientôt disponible</h2>
+<section class="included">
 
-<p class="subtitle">
+<h2>
 
-🐶 <strong>Collection Médiation animale</strong><br><br>
+Chaque Kit Express contient
 
-Des activités, jeux et séances pédagogiques inspirés de mon expérience de terrain avec <strong>Vénus</strong>, ma chienne de médiation animale.
+</h2>
+
+<div class="content-grid">
+
+<div>📘 Guide illustré</div>
+
+<div>🃏 Cartes éducatives</div>
+
+<div>🖼️ Pictogrammes</div>
+
+<div>📋 Tableau de routine</div>
+
+<div>🗓️ Calendrier</div>
+
+<div>🏅 Diplôme</div>
+
+<div>🎲 Cartes de jeux</div>
+
+</div>
+
+</section>
+
+<!-- PACK -->
+
+<section class="pack">
+
+<div class="pack-text">
+
+<h2>
+
+🌿 Le Pack Complet
+
+</h2>
+
+<p>
+
+Retrouvez les 9 Kits Express de la Parentalité dans un seul pack.
 
 </p>
+
+<h3>
+
+Au lieu de 80,10 €
+
+</h3>
+
+<div class="promo">
+
+69 €
+
+</div>
+
+<a href="#" class="btn-primary">
+
+Découvrir le pack
+
+</a>
+
+</div>
+
+</section>
+
+<!-- MEDIATION -->
+
+<section class="mediation">
+
+<div>
+
+<h2>
+
+🐶 Prochainement
+
+</h2>
+
+<p>
+
+Découvrez bientôt la Collection Médiation Animale inspirée de mon travail auprès des enfants avec Vénus.
+
+</p>
+
+<a href="#" class="btn-secondary">
+
+En savoir plus
+
+</a>
+
+</div>
 
 </section>
 
 <footer>
 
-<h2>Quintessa</h2>
+<h2>
+
+Quintessa
+
+</h2>
 
 <p>
 
@@ -455,13 +571,17 @@ Grandir avec confiance, accompagner avec bienveillance.
 
 </p>
 
-<br>
+<div class="footer-links">
 
-<p>
+<a href="#">Mentions légales</a>
 
-Mentions légales • CGV • Contact
+<a href="#">CGV</a>
 
-</p>
+<a href="#">Confidentialité</a>
+
+<a href="#">Contact</a>
+
+</div>
 
 </footer>
 
