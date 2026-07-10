@@ -685,3 +685,25 @@ padding:50px 25px;
 }
 
 }
+/* Informations d'achat */
+
+.purchase-info{
+    max-width:900px;
+    margin:25px auto 45px;
+    padding:18px 24px;
+    background:#FFF8F1;
+    border:1px solid #E8D7BF;
+    border-radius:14px;
+    text-align:center;
+}
+
+.purchase-info p{
+    margin:6px 0;
+    color:#666;
+    font-size:0.95rem;
+    line-height:1.6;
+}
+
+.purchase-info strong{
+    color:#556B4F;
+}
