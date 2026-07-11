@@ -630,6 +630,16 @@ color:var(--texte);
 
 }
 
+/* Bouton retour accueil */
+
+.retour-accueil{
+
+display:inline-block;
+
+margin-top:50px;
+
+}
+
 /**********************
 RESPONSIVE
 **********************/
